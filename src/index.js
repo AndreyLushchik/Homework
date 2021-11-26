@@ -10,25 +10,25 @@ ReactDOM.render(
 			type="Regular text"
 			fSize={25}
 			textColor="black"
-			undercover={false}
+			isUnderline={false}
 		/>
 		<VideoTag
 			type="Huge Header"
 			fSize={50}
 			textColor="black"
-			undercover={false}
+			isUnderline={false}
 		/>
 		<VideoTag
 			type="Danger notification"
 			fSize={25}
 			textColor="red"
-			undercover={false}
+			isUnderline={false}
 		/>
 		<VideoTag
 			type="Underline text"
 			fSize={30}
 			textColor="black"
-			undercover={true}
+			isUnderline={true}
 		/>
 	</React.StrictMode>,
 	document.getElementById("root")
